@@ -1,0 +1,80 @@
+a char array ch[] and frequency of each characters as freq[]. 
+write a program to find Huffman Codes for every character in ch[] using Priority Queue.
+
+Input Description:
+
+char array and frequency array is input for the program
+
+Output Description:
+
+display the Huffman Codes for every character in ch[] using Priority Queue.
+
+sample input
+
+ch[] = { ‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’ }, freq[] = { 5, 9, 12, 13, 16, 45 }
+
+sample output
+
+f 0
+c 100
+d 101
+a 1100
+b 1101
+e 111
+
+
+sample input
+
+ch[] = { ‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’, 'g' }, freq[] = { 4,5,7,8,10,12,20 }
+
+sample output
+
+f 00
+c 010
+d 011
+a 1000
+b 1001
+e 101
+g 11
+
+sample input
+
+ch[] = { ‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’}, freq[] = { 5,25,7,15,4,12 }
+
+sample output
+
+f 00
+d 01
+c 100
+e 1010
+a 1011
+b 11
+
+sample input
+
+ch[] = { 'Z','K','M','C','U','D','L','E'}, freq[] = { 2,7,24,32,37,42,42,120}
+
+sample output
+
+E 0
+U 100
+L 101
+D 110
+C 1110
+Z 111100
+K 111101
+M 11111
+
+sample input
+
+ch[] = { 'a','e','i','o','u','s','t'}, freq[] = { 10,15,12,3,4,13,1}
+
+sample output
+
+i 00
+s 01
+e 10
+u 1100
+t 11010
+o 11011
+a 111

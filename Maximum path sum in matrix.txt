@@ -1,0 +1,54 @@
+write a program for will find the maximum path sum in the m*n matrix.
+Input Description:
+m*n is size of the matrix, mat[][] is elements of the matrix
+
+Output Description:
+find  the maximum path sum in matrix
+
+sample input
+mat[][] =
+   3 5 9
+   1 7 2
+   4 8 6
+
+sample output
+The maximum path sum of matrix is : 24
+sample input
+mat[][] =
+10 20 90
+
+15 75 25
+
+44 88 66
+
+sample output
+The maximum path sum of matrix is : 253
+
+sample input
+mat[][] =
+5 6 1 7  
+                    
+-2 10 8 -1 
+                    
+3 -7 -9 11
+                     
+12 -4 2 6
+
+sample output
+The maximum path sum of matrix is : 32
+
+sample input
+mat[][] = 
+10 10  2  0 20  4
+ 1  0  0 30  2  5
+ 0 10  4  0  2  0
+ 1  0  2 20  0  4
+sample output
+The maximum path sum of matrix is : 74
+sample input
+mat[][] = 
+1 2 3
+9 8 7
+4 5 6
+sample output
+The maximum path sum of matrix is : 17

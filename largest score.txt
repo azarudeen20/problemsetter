@@ -1,0 +1,74 @@
+ABD tells the Monk that given his latest N innings, he is going to ask him Q number of questions about his career which would involve questions of two types:
+write the program for to 
+1.Find the kth smallest score of his career.
+2.Find the kth largest score of his career
+
+Input Description:
+
+an integer N denotes the number of innings played by ABD 
+N space separated integers denoting the number of scores made by ABD. 
+an integer Q denoting the number of questions ABD is going to be asking. 
+the next Q lines will contain a query like the ones mentioned above.
+
+Output format:
+Print the required answer for each query on a newline.
+
+sample input
+
+5
+
+1 2 3 4 5
+
+3
+
+3 L
+3 S
+1 L
+
+sample output
+3
+3
+5
+
+sample input
+
+6
+
+10 30 20 40 90
+
+2
+
+1 S
+6 L
+
+sample output
+10
+90
+sample input
+4
+
+100 90 80 70 
+sample output
+1
+2 L
+
+sample output
+90
+
+sample input
+10
+
+15 20 30 40 5 60 45 35 25 100
+5
+1 S
+10 L
+2 S
+9 L
+3 S
+sample output
+5
+100
+15
+60
+20
+
