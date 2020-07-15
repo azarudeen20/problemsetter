@@ -11,8 +11,8 @@ display the boolean array yes or no i.e true = yes, fales = no
 
 sample input
 
-bigString = “this is a big string”,
-smallStrings = [“this”, “yo”, “is”, “a”, “bigger”, “string”, “kappa”]
+bigString = â€œthis is a big stringâ€,
+smallStrings = [â€œthisâ€, â€œyoâ€, â€œisâ€, â€œaâ€, â€œbiggerâ€, â€œstringâ€, â€œkappaâ€]
 
 sample output
 
