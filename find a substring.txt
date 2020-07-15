@@ -29,7 +29,6 @@ sample output
 yes no no yes yes
 
 sample input
-
 bigString = "A String variable contains a collection of characters surrounded by double quotes"
 
 smallStrings = ["variable", "double", "char", "int", "collection", "surrounded"]
