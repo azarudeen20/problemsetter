@@ -1,0 +1,34 @@
+#include<iostrem.h>
+void main()
+{
+int ar[],n,i,qus;
+char ans;
+cout<<"Enter the innings count"<<endl;
+cin>>n>>endl;
+cout<<"Enter innings score"<<endl;
+for(i=0;i<n;i++)
+{
+cin>>ar[i]>>endl;
+}
+int s = sizeof(ar)/ sizeof(ar[0]);
+int as[]=ar[];
+int ds[]=ar[];
+sort(as, as+s); 
+sort(ds, ds+s, greater<int>()); 
+cout<<"Enter No. of Questions"<<endl;
+cin>>qus;
+for(i=0;i<qus;i++)
+{
+int k;
+char ls;
+cout<<"Press l for Largest and s for Smallest Score"<<endl;
+cout<<"Enter Which Score U want"<<endl;
+cin>>k>>ls;
+if(ls=='l')
+cout<<"The"<<k<<"th Largest Score is:"<<as[k];
+else if(ls=='s')
+cout<<"The"<<k<<"th Smallest Score is:"<<ds[k];
+else
+break;
+}
+}
