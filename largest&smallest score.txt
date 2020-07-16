@@ -25,9 +25,9 @@ cout<<"Press l for Largest and s for Smallest Score"<<endl;
 cout<<"Enter Which Score U want"<<endl;
 cin>>k>>ls;
 if(ls=='l')
-cout<<"The"<<k<<"th Largest Score is:"<<as[k];
+cout<<"The"<<k<<"th Largest Score is:"<<ds[k];
 else if(ls=='s')
-cout<<"The"<<k<<"th Smallest Score is:"<<ds[k];
+cout<<"The"<<k<<"th Smallest Score is:"<<as[k];
 else
 break;
 }
