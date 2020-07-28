@@ -1,48 +1,49 @@
-a big string and an array of small strings, all of which are smaller in length than the big string. 
-write a program create an array of booleans, where each boolean represents whether the small string at that index in the array of small strings is contained in the big string.
+A big string and an array of small strings, all of which are smaller in length than the big string. 
+Write a program create an array of booleans, Where each boolean represents whether the small string at that index in the array of small strings is contained in the big string.
 
 Input Description:
 
-the string and strings in array is input for the program
+The string and strings in array is input for the program
 
 Output Description:
 
-display the boolean array yes or no i.e true = yes, fales = no
+Display the boolean array yes or no i.e true = yes, fales = no
 
-sample input
+Sample Input
 
 bigString = “this is a big string”,
 smallStrings = [“this”, “yo”, “is”, “a”, “bigger”, “string”, “kappa”]
 
-sample output
+Sample Output
 
 yes , no , yes , yes , no , yes , no
 
-sample input
+Sample Input
 
 bigString = "A string is a data type used in programming"
 
 smallStrings =["string", "void", "date", "data", "in"]
 
-sample output
+Sample Output
 
 yes no no yes yes
 
-sample input
+Sample Input
+
 bigString = "A String variable contains a collection of characters surrounded by double quotes"
 
 smallStrings = ["variable", "double", "char", "int", "collection", "surrounded"]
 
-sample output
+Sample Output
 
 yes yes no no yes yes
 
-sample input
+Sample Input
 
 bigString = "The length of a string can be stored implicitly by using a special terminating character"
 
 smallStrings = ["length", "can","stored", "web", "character"]
 
-sample output
+Sample Output
 
 yes yes yes no yes
