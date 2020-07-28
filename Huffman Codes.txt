@@ -1,4 +1,4 @@
-a char array ch[] and frequency of each characters as freq[]. 
+A char array ch[] and frequency of each characters as freq[]. 
 write a program to find Huffman Codes for every character in ch[] using Priority Queue.
 
 Input Description:
@@ -7,13 +7,13 @@ char array and frequency array is input for the program
 
 Output Description:
 
-display the Huffman Codes for every character in ch[] using Priority Queue.
+Display the Huffman Codes for every character in ch[] using Priority Queue.
 
-sample input
+Sample Input
 
-ch[] = { ‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’ }, freq[] = { 5, 9, 12, 13, 16, 45 }
+ch[] = { â€˜aâ€™, â€˜bâ€™, â€˜câ€™, â€˜dâ€™, â€˜eâ€™, â€˜fâ€™ }, freq[] = { 5, 9, 12, 13, 16, 45 }
 
-sample output
+Sample Output
 
 f 0
 c 100
@@ -23,11 +23,11 @@ b 1101
 e 111
 
 
-sample input
+Sample Input
 
-ch[] = { ‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’, 'g' }, freq[] = { 4,5,7,8,10,12,20 }
+ch[] = { â€˜aâ€™, â€˜bâ€™, â€˜câ€™, â€˜dâ€™, â€˜eâ€™, â€˜fâ€™, 'g' }, freq[] = { 4,5,7,8,10,12,20 }
 
-sample output
+Sample Output
 
 f 00
 c 010
@@ -37,11 +37,11 @@ b 1001
 e 101
 g 11
 
-sample input
+Sample Input
 
-ch[] = { ‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘f’}, freq[] = { 5,25,7,15,4,12 }
+ch[] = { â€˜aâ€™, â€˜bâ€™, â€˜câ€™, â€˜dâ€™, â€˜eâ€™, â€˜fâ€™}, freq[] = { 5,25,7,15,4,12 }
 
-sample output
+Sample Output
 
 f 00
 d 01
@@ -50,11 +50,11 @@ e 1010
 a 1011
 b 11
 
-sample input
+Sample Input
 
 ch[] = { 'Z','K','M','C','U','D','L','E'}, freq[] = { 2,7,24,32,37,42,42,120}
 
-sample output
+Sample Output
 
 E 0
 U 100
@@ -65,11 +65,11 @@ Z 111100
 K 111101
 M 11111
 
-sample input
+Sample Input
 
 ch[] = { 'a','e','i','o','u','s','t'}, freq[] = { 10,15,12,3,4,13,1}
 
-sample output
+Sample Output
 
 i 00
 s 01
