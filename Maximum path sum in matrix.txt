@@ -14,7 +14,8 @@ mat[][] =
 
 Sample Output
 The maximum path sum of matrix is : 24
-sample input
+
+Sample Input
 mat[][] =
 10 20 90
 15 75 25
