@@ -1,5 +1,5 @@
 A char array ch[] and frequency of each characters as freq[]. 
-write a program to find Huffman Codes for every character in ch[] using Priority Queue.
+Write a program to find Huffman Codes for every character in ch[] using Priority Queue.
 
 Input Description:
 
